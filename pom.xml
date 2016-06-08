@@ -200,15 +200,15 @@
 
       <!-- 资源一定要配置,不然打不到mapping.xml,打包也会漏掉 -->
       <resource>
-        <!--<directory>src/main/java</directory>
+        <directory>src/main/java</directory>
         <includes>
           <include>**/*.properties</include>
           <include>**/*.xml</include>
-        </includes>-->
-        <directory>${project.basedir}/src/main/resources</directory>
+        </includes>
+        <!--<directory>${project.basedir}/src/main/resources</directory>
         <includes>
           <include>*.*</include>
-        </includes>
+        </includes>-->
         <filtering>true</filtering>
       </resource>
     </resources>
